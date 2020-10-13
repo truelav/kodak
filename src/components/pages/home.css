@@ -1,0 +1,26 @@
+.homeCategoriesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+  max-width: 90vw;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.homeCategoryContainer {
+  border: solid 1px rgb(163, 163, 163);
+  padding: 1.5em;
+  text-align: center;
+}
+
+.homeCategoryIconContainer {
+  display: flex;
+}
+
+
+.homeCategoryIcon {
+  max-width: 50px;
+  margin: auto;
+}
