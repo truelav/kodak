@@ -1,0 +1,36 @@
+.navigationSection {
+  background-color: rgba(255, 183, 0 , 1);
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+nav > div {
+  display: flex;
+  margin: auto;
+}
+
+.headerLogo {
+  max-width: 100px;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+}
+
+.navItem {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: auto 3vw;
+  padding: 0.25em;
+  text-transform: uppercase;
+}
+
+.navItem:hover {
+  background-color: red;
+  color: rgba(255, 183, 0 , 1);
+  cursor: pointer;
+}

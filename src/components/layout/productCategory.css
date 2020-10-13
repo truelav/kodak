@@ -1,0 +1,16 @@
+
+.productCategoryImageContainer {
+  max-width: 400px;
+  border: solid 1px rgb(247 247 247 / 64%);
+  padding: 0.5em 0.5em 3em 0.5em;
+  margin: 1em auto;
+  box-shadow: 9px 9px 16px rgb(95 98 103 / 51%), -9px -9px 16px rgb(255 255 255 / 64%);
+}
+
+.productCategoryImageContainer {
+  display: flex;
+}
+
+.productCategoryImageContainer > img {
+  margin: auto;
+}
