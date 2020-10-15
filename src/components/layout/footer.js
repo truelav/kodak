@@ -32,9 +32,7 @@ export const Footer = () => {
       <div className="footerInnerContainer">
         <ul className="footerList">
           <li className="footerListA">
-            <a href="/products">
-              Categories
-            </a>
+            Categories
           </li>
           <li className="footerListB">
             Photo Papers

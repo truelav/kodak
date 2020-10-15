@@ -1,0 +1,21 @@
+.productsCategoriesSection {
+  max-width: 85vw;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.productsCategoriesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2em;
+}
+
+
+.productCategoryContainer {
+  max-width: 400px;
+  border: solid 1px rgb(247 247 247 / 64%);
+  padding: 1em 1em 3em 1em;
+  margin: 1em auto;
+  box-shadow: 9px 9px 16px rgb(95 98 103 / 51%), -9px -9px 16px rgb(255 255 255 / 64%);
+  text-align: center;
+}

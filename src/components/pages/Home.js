@@ -25,6 +25,11 @@ export class Home extends Component {
               </div>
               <h3>Photo Paper for Instant Print Cameras</h3>
               <p>2.1" by 3.4"</p>
+              <a href="/products">
+                <button className="LearnMoreButton">
+                  Learn More
+                </button>
+              </a>
             </div>
             <div className="homeCategoryContainer">
               <div className="homeCategoryIconContainer">
@@ -32,6 +37,11 @@ export class Home extends Component {
               </div>
               <h3>Photo Paper for Dock Printers</h3>
               <p>4" by 6"</p>
+              <a href="/products">
+                <button className="LearnMoreButton">
+                  Learn More
+                </button>
+              </a>
             </div>
             <div className="homeCategoryContainer">
               <div className="homeCategoryIconContainer">
@@ -39,6 +49,11 @@ export class Home extends Component {
               </div>
               <h3>Wireless Printer</h3>
               <p>2.1" by 3.4"</p>
+              <a href="/products">
+                <button className="LearnMoreButton">
+                  Learn More
+                </button>
+              </a>
             </div>  
             <div className="homeCategoryContainer">
               <div className="homeCategoryIconContainer">
@@ -46,13 +61,23 @@ export class Home extends Component {
               </div>
               <h3>Instant Print Cameras</h3>
               <p>2.1" by 3.4"</p>
+              <a href="/products">
+                <button className="LearnMoreButton">
+                  Learn More
+                </button>
+              </a>
             </div>  
             <div className="homeCategoryContainer">
               <div className="homeCategoryIconContainer">
                 <img src={printerIcon} className="homeCategoryIcon" alt=""></img>
               </div>
               <h3>Wireless Printer</h3>
-              <p>3" by 3" Sqaure</p>
+              <p>3" by 3" Square</p>
+              <a href="/products">
+                <button className="LearnMoreButton">
+                  Learn More
+                </button>
+              </a>
             </div>  
             <div className="homeCategoryContainer">
               <div className="homeCategoryIconContainer">
@@ -60,6 +85,11 @@ export class Home extends Component {
               </div>
               <h3>Instant Print Cameras</h3>
               <p>3" by 3" Square</p>
+              <a href="/products">
+                <button className="LearnMoreButton">
+                  Learn More
+                </button>
+              </a>
             </div> 
           </div>
         </div>

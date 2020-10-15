@@ -17,6 +17,13 @@ body {
   font-family: 'graphik-Light', Helvetica,Arial,sans-serif;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  font-family: 'graphik-SemiBold', Helvetica,Arial,sans-serif;
+}
+
 img {
   width: 100%;
 }

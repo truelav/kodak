@@ -19,8 +19,25 @@
   display: flex;
 }
 
-
 .homeCategoryIcon {
   max-width: 50px;
   margin: auto;
+}
+
+.LearnMoreButton {
+  background-color: rgba(255, 183, 0 , 1);
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 1em;
+}
+
+.LearnMoreButton:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.LearnMoreButton > a {
+  color: red;
 }
