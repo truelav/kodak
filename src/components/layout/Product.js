@@ -1,4 +1,8 @@
 import React from 'react';
+
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+
 import './product.css';
 
 export const Product = (props) => {
@@ -19,9 +23,9 @@ export const Product = (props) => {
       <p>
         {product.price}
       </p>
-      <a href="/products">
+      <a href={product.productsURL}>
         <button className="LearnMoreButton">
-          Learn More
+          Learn Moree
         </button>
       </a>
     </div>

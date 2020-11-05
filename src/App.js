@@ -6,6 +6,9 @@ import { Footer } from './components/layout/Footer'
 
 import { Home } from './components/pages/Home'
 import { Products } from './components/pages/Products'
+import { Contact } from './components/pages/Contact'
+
+import { MS210 } from './components/pages/MS210'
 
 import products from './database/data.json'
 import './app.css';
@@ -18,9 +21,9 @@ export class App extends Component {
         <div>
           <Switch>
             <Route path="/" component={Home} exact/>
-            <Route path="/" component={Products} />
-            {/* <Route path="/" component={About} />
-            <Route path="/" component={Contact} /> */}
+            <Route path="/Products" component={Products} />
+            <Route path="/Contact" component={Contact} />
+            <Route path="/MS210" component={MS210} />
             <Route component={Error} />
           </Switch>
         </div>

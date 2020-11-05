@@ -1,0 +1,15 @@
+
+
+.productBodyContainer {
+  max-width: 90vw;
+  margin: auto;
+}
+
+.productTopContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.productTopHeaderContainer {
+  text-align: center;
+}
