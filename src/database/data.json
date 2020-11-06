@@ -32,7 +32,7 @@
   },
   {
     "id": 2,
-    "productName": "Instant Camera 2 in 1",
+    "productName": "Instant Camera 2 in 1 Retro",
     "category": "Instant Camera 2 in 1",
     "model": "C210",
     "sizeCategory": "2.1 x 3.4",
@@ -51,8 +51,15 @@
       "Weight: 255g",
       "Support Operating System: Android, IOS"
     ],
+    "featuredParagraphs": [
+      "2-IN-1 DEVICE: Your Kodak Mini Shot 3 Retro allows you to shoot and print high-quality photos anytime and anywhere! After taking fabulous shots, you can print them directly from your Kodak Mini Shot 3 Retro OR connect with any mobile devices via Bluetooth and print straight from the photo gallery!",
+      "SUPERIOR PHOTO QUALITY: The Kodak Mini Shot uses 4Pass Technology that results in outstanding real photos. You can print HD 3 x 3-inch photos in layers of ribbon with a laminated finish. The photos are waterproof and finger-proof so they will last for many years.",
+      "TRY OUT THE KODAK APP: You can download the Kodak app for free and print anywhere and anytime! Decorate these instant photos with stickers, frames, and filters for a unique and fun effect. The app is compatible with iOS and Android devices.",
+      "PRACTICAL & VERSATILE: All it takes to enjoy fabulous printed photos is your mobile device and the Kodak 4Pass! Use this revolutionary device indoors, outdoors or in professional studios to convert your pics instantly.",
+      "SHARE AND LOVE THEM: These unique snapshots help you celebrate unique moments with your loved ones. Surprise your family and friends with a lovely scrapbook made with Kodak Mini Shot pics and live those fun times all over again."
+    ],
     "price": "$99.99",
-    "imageUrl": "/assets/images/ms210/2.jpg",
+    "imageUrl": "/assets/images/retro/1.jpg",
     "description": "",
     "iconsUrl": [],
     "buyNowUrl": "https://walmart.com"
@@ -189,6 +196,7 @@
       "Weight: 255g",
       "Support Operating System: Android, IOS"
     ],
+    
     "price": "$99.99",
     "imageUrl": "/assets/images/ms210/1.jpg",
     "description": "",

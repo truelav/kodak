@@ -8,7 +8,7 @@ import { Home } from './components/pages/Home'
 import { Products } from './components/pages/Products'
 import { Contact } from './components/pages/Contact'
 
-import { MS210 } from './components/pages/MS210'
+import { MS210 } from './components/pages/MS210Y'
 
 import products from './database/data.json'
 import './app.css';

@@ -13,6 +13,7 @@ export const Product = (props) => {
     <div className="productCategoryHeaderContainer">
       <h2 className="productCategoryH2">{product.productName}</h2>
     </div>
+    <p>{product.id}</p>
     <div className="productCategoryImageContainer">
       <img title="kodak" src={product.imageUrl} alt="kodak" className="productCategoryImage"></img>
     </div>
@@ -25,7 +26,7 @@ export const Product = (props) => {
       </p>
       <a href={product.productsURL}>
         <button className="LearnMoreButton">
-          Learn Moree
+          Learn More
         </button>
       </a>
     </div>

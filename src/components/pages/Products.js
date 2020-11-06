@@ -10,6 +10,17 @@ import { ProductGrid } from '../layout/Products'
 
 export class Products extends Component {
 
+  constructor(props){
+    super(props);
+    this.state = {
+      producs: items
+    };
+  }
+
+  componentDidMount(){
+    this.setState({products: items})
+  }
+
   filterItems = (search) => {
     items.filter( (item) => {
       return item.includes(search)
@@ -43,6 +54,7 @@ export class Products extends Component {
               </div>
             </div>
           </div>
+          {console.log(this.state.products)}
           <div className="productsInnerContainer">
             <ProductGrid  items={items} />
           </div>
